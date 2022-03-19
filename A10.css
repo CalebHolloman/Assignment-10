@@ -1,0 +1,27 @@
+html,
+body{
+  margin:0;
+  padding:20px;
+  background-color: rgba(221, 221, 221, 0.5);
+}
+
+.container {
+  background-color: black;
+  padding:10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.wrapper1 {
+  padding:10px;
+  background-color: rgba(24, 153, 192, 0.5);
+}
+
+.wrapper2 {
+  padding:10px;
+  background-color: rgba(224, 57, 160, 0.5);
+}
+
+.wrapper3 {
+  padding:10px;
+  background-color: rgba(224, 57, 57, 0.5);
+}
